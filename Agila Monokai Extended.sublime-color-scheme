@@ -1,0 +1,43 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables":
+	{
+		"orange": "hsl(32, 98%, 56%)",
+		"strong_yellow": "rgb(255,234,0)",
+		"soft_pink": "rgb(255,105,157)",
+	},
+	"globals":
+	{
+		"caret": "var(orange)",
+		"line_highlight": "rgb(70,70,70)",
+		"highlight": "rgb(255, 128, 0)",
+		"selection": "rgb(102,102,102)",
+	},
+	"rules":
+	[
+		{
+			"scope": "text.find-in-files constant.numeric.line-number.match",
+			"selection_foreground": "var(strong_yellow)",
+		},
+		{
+			"scope": "comment",
+			"foreground": "rgb(143,139,119)",
+		},
+		{
+			"scope": "source.json string",
+			"foreground": "rgb(255,216,184)",
+		},
+		{
+			"scope": "keyword.operator",
+			"foreground": "var(soft_pink)",
+		},
+		{
+			"scope": "keyword.operator.word.cast, keyword.control, storage.modifier",
+			"foreground": "var(soft_pink)",
+		},
+		{
+			"scope": "text.xml meta.tag entity.name.tag, keyword.declaration.doctype.xml",
+			"foreground": "var(soft_pink)",
+		},
+	]
+}

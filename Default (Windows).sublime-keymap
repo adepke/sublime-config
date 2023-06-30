@@ -1,0 +1,28 @@
+[
+	// See this video for tips: https://www.youtube.com/watch?v=FQsxc63Y5HQ
+
+	// Open a terminal tab at current file directory
+	{
+		"keys": ["ctrl+alt+t"], "command": "terminus_open", "args": {
+			"cwd": "${file_path:${folder}}"
+		},
+		"context": [
+			{ "key": "terminus_view", "operator": "not_equal", "operand": true },
+		]
+	},
+
+	// Open terminus as a panel
+	{
+		"keys": ["alt+`"], "command": "toggle_terminus_panel", "args": {
+			"cwd": "${file_path:${folder}}"
+		}
+	},
+
+	// Close the terminus panel if in focus with standard window close
+	{
+		"keys": ["ctrl+w"], "command": "terminus_close",
+		"context": [
+			{ "key": "terminus_view" },
+		]
+	},
+]

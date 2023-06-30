@@ -1,0 +1,8 @@
+{
+	"default_config": {
+		"windows": "Powershell"
+	},
+	"view_settings": {
+		"spell_check": false
+	}
+}

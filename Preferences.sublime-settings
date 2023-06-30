@@ -1,0 +1,31 @@
+{
+	"caret_style": "smooth",
+	"themed_title_bar": true,  // condense menu bar, hit alt to bring it up
+	"hide_new_tab_button": true,
+	"show_line_endings": true,
+	"show_encoding": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"font_size": 10,
+	"close_windows_when_empty": false,
+	"spell_check": false,
+	"added_words":
+	[
+		"linearizability",
+		"linearized",
+		"lsp",
+		"dev",
+		"gif",
+		"json",
+		"linter",
+		"readme",
+		"todo",
+		"changelog",
+		"backend",
+		"frontend",
+	],
+	"color_scheme": "Packages/Agila Theme/Agila Monokai Extended.tmTheme",
+	"theme": "Adaptive.sublime-theme",
+}

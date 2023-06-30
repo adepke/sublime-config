@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Agila Theme",
+		"FileDiffs",
+		"FileIcons",
+		"Git",
+		"HLSL Syntax",
+		"LSP",
+		"LSP-clangd",
+		"LSP-file-watcher-chokidar",
+		"LSP-json",
+		"LSP-pyright",
+		"Open URL",
+		"OpenPath",
+		"Origami",
+		"Package Control",
+		"PackageSync",
+		"RainbowBrackets",
+		"ST-AutoFilePath",
+		"Terminal",
+		"Terminus",
+	],
+	"repositories":
+	[
+		"https://github.com/jfcherng-sublime/ST-AutoFilePath"
+	],
+}
