@@ -1,5 +1,9 @@
 {
 	"bootstrapped": true,
+	"downloader_precedence": {
+		"windows": ["wininet", "oscrypto"],
+		"linux": ["curl"],
+	},
 	"in_process_packages":
 	[
 	],
@@ -11,10 +15,12 @@
 		"Git",
 		"HLSL Syntax",
 		"LSP",
+		"LSP-bash",
 		"LSP-clangd",
 		"LSP-file-watcher-chokidar",
 		"LSP-json",
 		"LSP-pyright",
+		"LSP-yaml",
 		"Open URL",
 		"OpenPath",
 		"Origami",

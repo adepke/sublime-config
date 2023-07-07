@@ -8,7 +8,8 @@
         "bracket_pairs": {
             "(": ")",
             "[": "]",
-            "{": "}"
+            "{": "}",
+            "<": ">"
         },
 
         "coloring": true,
@@ -18,17 +19,18 @@
         "ignored_scopes": [
             "comment",
             "string",
-            "constant"
+            "constant",
+            "output.lsp.diagnostics", // Doesn't appear to work?
         ],
 
         "rainbow_colors": [
-            "#FF0000", // level0
-            "#FF6A00", // level1
-            "#FFD800", // level2
-            "#00FF00", // level3
-            "#0094FF", // level4
-            "#0041FF", // level5
-            "#7D00E5"  // level6
+            "#FF5151", // red
+            "#FF9047", // orange
+            "#FFE14C", // yellow
+            "#6BFF6B", // green
+            "#6BC3FF", // light blue
+            "#517FFF", // dark blue
+            "#B25BFF"  // purple
         ],
 
         "mismatch_color": "#FF0000"
