@@ -2,7 +2,7 @@
 	RainbowBrackets user settings in here override the default
 */
 {
-    "debug": true,
+    "debug": false,
 
     "default_config": {
         "bracket_pairs": {
