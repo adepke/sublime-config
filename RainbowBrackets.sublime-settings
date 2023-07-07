@@ -2,7 +2,7 @@
 	RainbowBrackets user settings in here override the default
 */
 {
-    "debug": false,
+    "debug": true,
 
     "default_config": {
         "bracket_pairs": {
@@ -20,7 +20,7 @@
             "comment",
             "string",
             "constant",
-            "output.lsp.diagnostics", // Doesn't appear to work?
+            "output.lsp",
         ],
 
         "rainbow_colors": [
@@ -89,6 +89,31 @@
 
             "ignored_scopes": [
                 "comment", "string", "constant"
+            ]
+        },
+
+        "C++": {
+            "bracket_pairs": {
+                "(": ")",
+                "[": "]",
+                "{": "}",
+                "<": ">"
+            },
+
+            "extensions": [
+                ".c",
+                ".cpp",
+                ".cxx",
+                ".cc",
+                ".h",
+                ".hpp",
+                ".hxx"
+            ],
+
+            "ignored_scopes": [
+                "comment",
+                "keyword.operator.comparison",
+                "punctuation.accessor.arrow"
             ]
         }
     }
