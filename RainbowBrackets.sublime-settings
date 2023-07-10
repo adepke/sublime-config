@@ -113,7 +113,8 @@
             "ignored_scopes": [
                 "comment",
                 "keyword.operator.comparison",
-                "punctuation.accessor.arrow"
+                "punctuation.accessor.arrow",
+                "string"
             ]
         }
     }
