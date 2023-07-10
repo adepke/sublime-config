@@ -21,6 +21,7 @@
             "string",
             "constant",
             "output.lsp",
+            "keyword.operator.comparison"
         ],
 
         "rainbow_colors": [
