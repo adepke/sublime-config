@@ -21,7 +21,8 @@
             "string",
             "constant",
             "output.lsp",
-            "keyword.operator.comparison"
+            "keyword.operator.comparison",
+            "text.find-in-files"
         ],
 
         "rainbow_colors": [
