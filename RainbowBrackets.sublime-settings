@@ -114,6 +114,7 @@
             "ignored_scopes": [
                 "comment",
                 "keyword.operator.comparison",
+                "keyword.operator.arithmetic",
                 "punctuation.accessor.arrow",
                 "string"
             ]
