@@ -25,4 +25,12 @@
 			{ "key": "terminus_view" },
 		]
 	},
+
+	// Ctrl to bring LSP hover up
+	{
+		"keys": ["ctrl"], "command": "lsp_hover",
+		"context": [
+			{ "key": "lsp.session_with_capability", "operand": "hoverProvider" },
+		]
+	},
 ]
