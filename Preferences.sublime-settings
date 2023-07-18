@@ -38,6 +38,8 @@
 		"https",
 		"gitlab",
 		"lmco",
+		"jira",
+		"repo"
 	],
 	"color_scheme": "Packages/Agila Theme/Agila Monokai Extended.tmTheme",
 	"theme": "Adaptive.sublime-theme",
