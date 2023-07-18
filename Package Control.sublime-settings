@@ -19,6 +19,7 @@
 		"LSP-clangd",
 		"LSP-file-watcher-chokidar",
 		"LSP-json",
+		"LSP-lemminx",
 		"LSP-pyright",
 		"LSP-yaml",
 		"Open URL",
