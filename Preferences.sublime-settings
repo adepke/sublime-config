@@ -43,4 +43,11 @@
 	],
 	"color_scheme": "Packages/Agila Theme/Agila Monokai Extended.tmTheme",
 	"theme": "Adaptive.sublime-theme",
+	// Using BracketHighlighter so disable built-in highlighting
+	"match_brackets": false,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_content": false,
+	"match_brackets_square": false,
+	"match_tags": false
 }
