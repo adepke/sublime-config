@@ -51,4 +51,17 @@
 	"match_brackets_square": false,
 	"match_tags": false,
 	"index_files": true,
+	"index_exclude_patterns": [
+		"*.log",
+		"*.tmp",
+		"build/",
+		"cpp/cpp/",
+	],
+	"rulers": [ 160 ],
+	"ruler_style": "stippled",
+	"default_line_ending": "unix",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": "all",
+	"trim_only_modified_white_space": true,
 }
