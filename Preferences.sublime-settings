@@ -49,5 +49,6 @@
 	"match_brackets_braces": false,
 	"match_brackets_content": false,
 	"match_brackets_square": false,
-	"match_tags": false
+	"match_tags": false,
+	"index_files": true,
 }
