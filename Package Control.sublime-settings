@@ -11,6 +11,8 @@
 	[
 		"Agila Theme",
 		"BracketHighlighter",
+		"CMake",
+		"Dockerfile Syntax Highlighting",
 		"FileDiffs",
 		"FileIcons",
 		"Git",
@@ -18,6 +20,7 @@
 		"LSP",
 		"LSP-bash",
 		"LSP-clangd",
+		"LSP-dockerfile",
 		"LSP-file-watcher-chokidar",
 		"LSP-json",
 		"LSP-lemminx",
