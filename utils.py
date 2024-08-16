@@ -53,9 +53,8 @@ class ListAllCommandsCommand(sublime_plugin.WindowCommand):
 
 # Plugin hot-patching
 # TODO: wrap in on_plugin_load() callback or something?
-#####################
+#########################################################
 
-# Hack SFTP's licensing code
 def sftp_ff(v):
     def _(components):
         return True
