@@ -44,6 +44,10 @@
             "ignored_scopes": "keyword"
         },
 
+        "Plain Text": {
+            "coloring": false,
+        },
+
         "JSON": {
             "bracket_pairs": {
                 "{": "}",

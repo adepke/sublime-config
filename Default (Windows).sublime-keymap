@@ -68,4 +68,25 @@
 	{ "keys": ["ctrl+q", "ctrl+alt+right"], "command": "create_pane_with_file", "args": {"direction": "right"} },
 	{ "keys": ["ctrl+q", "ctrl+alt+down"], "command": "create_pane_with_file", "args": {"direction": "down"} },
 	{ "keys": ["ctrl+q", "ctrl+alt+left"], "command": "create_pane_with_file", "args": {"direction": "left"} },
+
+	// SFTP, sync on save. This is a fancier system compared to just uploading on save.
+	{
+		"keys": ["ctrl+s"],
+		"command": "execute_if_remote",
+		"args": {
+			"command": "chain",
+			"args": {
+				"commands": [
+					// Async save might cause issues. Play it safe and synchronously save.
+					["save", { "async": false }],
+					["remote_sync"]
+				]
+			},
+			// Restore old save behavior when not in a remote project.
+			"false_command": "save",
+			"false_args": {
+				"async": true
+			}
+		}
+	},
 ]

@@ -3,6 +3,7 @@
 		"windows": "Powershell"
 	},
 	"view_settings": {
-		"spell_check": false
+		"spell_check": false,
+		"rulers": []
 	}
 }
