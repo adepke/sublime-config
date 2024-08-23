@@ -16,7 +16,7 @@
 
 	// Open terminus as a panel
 	{
-		"keys": ["alt+`"], "command": "toggle_terminus_panel", "args": {
+		"keys": ["alt+t"], "command": "toggle_terminus_panel", "args": {
 			"cwd": "${file_path:${folder}}"
 		}
 	},
@@ -71,7 +71,7 @@
 
 	// SFTP, sync on save. This is a fancier system compared to just uploading on save.
 	{
-		"keys": ["ctrl+s"],
+		"keys": ["primary+s"],
 		"command": "execute_if_remote",
 		"args": {
 			"command": "chain",
@@ -88,5 +88,26 @@
 				"async": true
 			}
 		}
+	},
+	// SFTP sync on save with LSP code action save. From LSP keybinds.
+	{
+		"keys": ["primary+s"],
+		"command": "execute_if_remote",
+		"args": {
+			"command": "chain",
+			"args": {
+				"commands": [
+					// Async save might cause issues. Play it safe and synchronously save.
+					["lsp_save", { "async": false }],
+					["remote_sync"]
+				]
+			},
+			// Restore old save behavior when not in a remote project.
+			"false_command": "lsp_save",
+			"false_args": {
+				"async": true
+			}
+		},
+		"context": [{"key": "lsp.session_with_capability", "operand": "textDocumentSync.willSave | textDocumentSync.willSaveWaitUntil | codeActionProvider.codeActionKinds | documentFormattingProvider | documentRangeFormattingProvider"}]
 	},
 ]
